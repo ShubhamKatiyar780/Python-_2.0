@@ -1,7 +1,7 @@
 # Take input from the user for number of rows in the pyramid
 row = int(input('Enter the value of row: '))
 
-# Initialize a counter to keep track of the total number of stars printed
+# Initialize a counter to keep track of the total number of spaces and stars printed
 count_star = count_space = 0
 
 # Outer loop to handle the number of rows
@@ -10,7 +10,7 @@ for i in range(row):
     # (row - i - 1) spaces to center-align the pyramid
     for j in range(row - i - 1):
         print(' ', end=' ')
-        count_space += 1
+        count_space += 1    # Increment space count for each space
     
     # Inner loop to print stars
     # Number of stars in each row = 2*i + 1
