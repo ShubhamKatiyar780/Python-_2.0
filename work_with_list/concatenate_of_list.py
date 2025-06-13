@@ -85,7 +85,6 @@ for i in range(1, len(c)):
             c[j], c[j+1] = c[j+1], c[j]
 print(c)
 
-
 # Unpack List
 # List with five elements
 li = [1, 2, 3, 4, 5]
