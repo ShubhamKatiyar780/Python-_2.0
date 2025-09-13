@@ -13,6 +13,8 @@ else:
     # This else runs only if the loop wasn't broken (i.e., it's a palindrome)
     print("Given string", "'", input_str, "'", 'is a palindrome')
 
+
+
 # ---------- Method 2: Using string reversal ----------
 # Reverse the string using slicing
 reverse_str = input_str[::-1]
