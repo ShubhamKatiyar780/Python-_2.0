@@ -1,4 +1,4 @@
-# 🔸 Simple closure example
+# Simple closure example
 def outer():
     msg = 'Hey'  # Define a variable in the outer function
     def inner():
@@ -9,7 +9,7 @@ def outer():
 print(outer())  # Output: Hey
 
 
-# 🔸 Using nonlocal to modify outer variable
+# Using nonlocal to modify outer variable
 def outer():
     msg = 'Hello Shubham'  # Outer function variable
 
