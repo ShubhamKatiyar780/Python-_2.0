@@ -10,10 +10,10 @@ connection = mysql.connect(
 )
 
 cursor = connection.cursor()
-cursor.execute("CREATE DATABASE IF NOT EXISTS StudentsDetails")
+cursor.execute("CREATE DATABASE IF NOT EXISTS YouTubeDetails")
 print("\nDatabase Created Successfully!")
 
-cursor.execute("USE StudentsDetails")
+cursor.execute("USE YouTubeDetails")
 
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS youtube_videos(
@@ -206,7 +206,6 @@ def main():
                 print("Exit canceled. stay on main menu.\n")
             else:
                 print("Invalid confirmation! Please type 'yes' to confirm or 'no' to cancel.\n")
-            
         else:   # If choice is invalid
             print('Invalid choice!')
 
